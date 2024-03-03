@@ -1,0 +1,33 @@
+.myPrimaryButton {
+	--bs-btn-color: #dedee0;
+	--bs-btn-bg: #d33829;
+	--bs-btn-border-color: #d33829;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #ca2314;
+	--bs-btn-hover-border-color: #ca2314;
+	--bs-btn-focus-shadow-rgb: 240, 59, 41;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #b51b0d;
+	--bs-btn-active-border-color: #b51b0d;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: #ff968c;
+	--bs-btn-disabled-border-color: #ff968c;
+}
+
+.mySecondaryButton {
+	--bs-btn-color: #dedee0;
+	--bs-btn-bg: transparent;
+	--bs-btn-border-color: #d33829;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: rgba(202, 35, 20, 0.1);
+	--bs-btn-hover-border-color: #d33829;
+	--bs-btn-focus-shadow-rgb: 240, 59, 41;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: rgba(202, 35, 20, 0.2);
+	--bs-btn-active-border-color: #d33829;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: #ff968c;
+	--bs-btn-disabled-border-color: #ff968c;
+}

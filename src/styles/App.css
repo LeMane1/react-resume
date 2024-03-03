@@ -1,0 +1,137 @@
+@import 'bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Reset */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Common */
+
+body {
+	font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.5;
+	background-color: black;
+	color: #dedee0;
+}
+
+.regular {
+	font-weight: 500;
+}
+
+.semi-bold {
+	font-weight: 600;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.text-paragraph {
+	color: #7a7a7a;
+}
+
+.text-shaded {
+	color: #484848;
+}
+
+.blur-bg {
+	backdrop-filter: blur(20px);
+	background-color: rgba(35, 35, 35, 0.2);
+}
+
+.App {
+	background-color: #232323;
+	max-width: 990px;
+}
+
+.width-fullsize {
+	width: 100%;
+}
+
+.height-fullsize {
+	height: 100%;
+}
+
+/* Intro */
+
+.intro-image {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+@media (max-width: 768px) {
+	.intro-image {
+		max-width: 150px;
+		max-height: 150px;
+	}
+}
+
+/* Header */
+
+.header {
+	--bs-border-opacity: 5%;
+}
+
+.header-link-button {
+	background-color: transparent;
+	border: none;
+	color: #c8c8c8;
+}
+
+.header-link-button:active,
+.header-link-button:hover,
+.header-link-button:focus {
+	color: #fff;
+}
+
+/* Hack for control scrollspy offset */
+h2::before {
+	display: block;
+	content: ' ';
+	margin-top: -80px;
+	height: 80px;
+	visibility: hidden;
+	pointer-events: none;
+}
