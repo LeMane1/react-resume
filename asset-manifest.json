@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-resume/static/css/main.05ea22df.css",
+    "main.js": "/react-resume/static/js/main.959097b7.js",
+    "static/js/453.3c10c9ab.chunk.js": "/react-resume/static/js/453.3c10c9ab.chunk.js",
+    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.540a26fadd0011acc641.pdf",
+    "static/media/photo.png": "/react-resume/static/media/photo.fe3855667889eab2a611.png",
+    "static/media/icon_communication.svg": "/react-resume/static/media/icon_communication.f29c2ed9138dc27cc72f04193de2d871.svg",
+    "static/media/icon_team.svg": "/react-resume/static/media/icon_team.68b2d33e814e7782c2db83fc1e0e4e2d.svg",
+    "static/media/icon_task.svg": "/react-resume/static/media/icon_task.3781ff9524d705402530543ff92ca97b.svg",
+    "static/media/icon_code.svg": "/react-resume/static/media/icon_code.43754b3c9d441c74af38f836c436d593.svg",
+    "static/media/instagram.svg": "/react-resume/static/media/instagram.099d26e8975f8237f63670903351ca45.svg",
+    "static/media/icon_reward.svg": "/react-resume/static/media/icon_reward.6a72c4fc03ccb7d418925eca889b1aee.svg",
+    "static/media/github.svg": "/react-resume/static/media/github.317213a8cc95f2fb8b79541f89efe3c7.svg",
+    "static/media/icon_idea.svg": "/react-resume/static/media/icon_idea.4d892f5b4d526de7d9d6d7ed2d368753.svg",
+    "static/media/telegram.svg": "/react-resume/static/media/telegram.3c8bba709c331b95ade02d587235c493.svg",
+    "static/media/vk.svg": "/react-resume/static/media/vk.7dd0be1427f6a8ddbffab4253aead8a2.svg",
+    "static/media/linkedin.svg": "/react-resume/static/media/linkedin.8e9a09442e0eb89de758c9d0070929b7.svg",
+    "index.html": "/react-resume/index.html",
+    "static/media/email.svg": "/react-resume/static/media/email.ccec308b87ab9dad72eb86e83c17bdbd.svg",
+    "main.05ea22df.css.map": "/react-resume/static/css/main.05ea22df.css.map",
+    "main.959097b7.js.map": "/react-resume/static/js/main.959097b7.js.map",
+    "453.3c10c9ab.chunk.js.map": "/react-resume/static/js/453.3c10c9ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05ea22df.css",
+    "static/js/main.959097b7.js"
+  ]
+}
