@@ -4,6 +4,7 @@ import Intro from './components/Intro'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
 import SoftSkills from './components/SoftSkills'
+import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 import { useWindowWidth } from './hooks/useWindowWidth'
 import { MAX_CONTAINER_WIDTH } from './data/constants'
@@ -34,6 +35,7 @@ function App() {
 					<Intro className={'mb-5'} />
 					<Skills className={'mb-5'} />
 					<Experience className={'mb-5'} />
+					<Portfolio className={'mb-5'} />
 					<SoftSkills className={'mb-5'} />
 					<Education className={'mb-5'} />
 				</div>

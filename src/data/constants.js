@@ -53,13 +53,17 @@ export const devSkills = [
 		skills: ['Bootstrap'],
 	},
 	{
+		skillBlockTitle: 'Типизация',
+		skills: ['Typescript'],
+	},
+	{
 		skillBlockTitle: 'JS фреймворки',
-		skills: ['React', 'React Router', 'Redux'],
+		skills: ['React', 'React Router', 'Redux Toolkit'],
 	},
 	{ skillBlockTitle: 'Алгоритмы', skills: ['Бинарный поиск', 'Сортировки'] },
 	{
 		skillBlockTitle: 'Браузер',
-		skills: ['Housting', 'Event Loop', 'Web Workers'],
+		skills: ['Web Sockets', 'Event Loop', 'Workers'],
 	},
 	{ skillBlockTitle: 'Системы контроля версий', skills: ['Git', 'SVN'] },
 	{
@@ -136,5 +140,22 @@ export const educationItems = [
 		university: 'СПБПУ Петра Великого',
 		period: '2020–2022',
 		speciality: 'Магистратура по специальности «Медицинское приборостроение»',
+	},
+]
+
+export const portfolioItems = [
+	{
+		status: 'В разработке',
+		type: 'Pet project',
+		name: 'Finance Control',
+		description:
+			'Сервис для контроля за расходами и доходами. Поддерживает авторизацию пользователей, добавление учета расходов / доходов, создания отчета за выбранный период.',
+	},
+	{
+		status: 'В разработке',
+		type: 'Проект для Wargaming',
+		name: 'Feature XML Editor',
+		description:
+			'Сервис для редактирования и создания XML конфигов. Позволяет загружать XML конфиги, изменять их содержимое и выгружать пользователю обратно.',
 	},
 ]

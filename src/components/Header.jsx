@@ -70,6 +70,9 @@ const Header = () => {
 									<li className="nav-item">
 										<HeaderItem text="Опыт работы" href="#experience" />
 									</li>
+									<li className="nav-item">
+										<HeaderItem text="Портфолио" href="#portfolio" />
+									</li>
 									<li>
 										<HeaderItem
 											text="Личностные качества"
