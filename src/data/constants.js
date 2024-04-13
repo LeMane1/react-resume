@@ -66,7 +66,7 @@ export const devSkills = [
 		skills: ['Web Sockets', 'Event Loop', 'Workers'],
 	},
 	{
-		skillBlockTitle: 'Систему управления проектами и задачами',
+		skillBlockTitle: 'Системы управления проектами и задачами',
 		skills: ['Jira', 'Confluence', 'MS Teams', 'TeamCity', 'Jenkins'],
 	},
 	{
