@@ -65,11 +65,15 @@ export const devSkills = [
 		skillBlockTitle: 'Браузер',
 		skills: ['Web Sockets', 'Event Loop', 'Workers'],
 	},
-	{ skillBlockTitle: 'Системы контроля версий', skills: ['Git', 'SVN'] },
+	{
+		skillBlockTitle: 'Систему управления проектами и задачами',
+		skills: ['Jira', 'Confluence', 'MS Teams', 'TeamCity', 'Jenkins'],
+	},
 	{
 		skillBlockTitle: 'Особенности JS',
 		skills: ['Промисы и асинхронныe функции', 'Области видимости', 'Замыкания'],
 	},
+	{ skillBlockTitle: 'Системы контроля версий', skills: ['Git', 'SVN'] },
 ]
 
 export const designSkills = [
