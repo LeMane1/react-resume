@@ -7,17 +7,17 @@ import { useWindowWidth } from '../hooks/useWindowWidth'
 
 const Intro = ({ className }) => {
 	const windowWidth = useWindowWidth()
+
 	return (
 		<div className={`p-0 ${className}`}>
 			<div className="d-flex flex-md-nowrap flex-wrap">
 				<img src={photo} alt="Фото меня" className="intro-image me-4 mb-3" />
 				<div className="">
 					<h1 className="bold">Александр Зеленин</h1>
-					<h4 className="bold text-shaded mb-3">Фронтенд разработчик</h4>
+					<h4 className="semi-bold text-shaded mb-3">Фронтенд разработчик</h4>
 					<p className="text-paragraph mb-3">
-						{`Привет! Я разрабатываю пользовательские интерфейсы в игровой
-						индустрии на протяжении 2 лет. Готов создавать и улучшать интерфейсы
-						и в веб-разработке!`}
+						{`Привет! Я разрабатываю пользовательские интерфейсы уже более 2 лет.
+						В разработке использую самые современные технологии и постоянно стремлюсь к изучению нового!`}
 					</p>
 					<div className="d-flex flex-wrap mb-4">
 						<Button

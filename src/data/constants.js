@@ -49,22 +49,30 @@ export const links = [
 export const devSkills = [
 	{ skillBlockTitle: 'Верстка', skills: ['HTML', 'CSS', 'JS'] },
 	{
-		skillBlockTitle: 'CSS фреймворки',
-		skills: ['Bootstrap'],
+		skillBlockTitle: 'UI Kits',
+		skills: ['React Bootstrap', 'Ant Design'],
+	},
+	{
+		skillBlockTitle: 'CSS in JS',
+		skills: ['Emotion'],
 	},
 	{
 		skillBlockTitle: 'Типизация',
-		skills: ['Typescript'],
+		skills: ['Typescript', 'React PropTypes'],
 	},
 	{
 		skillBlockTitle: 'JS фреймворки',
 		skills: ['React', 'React Router', 'Redux Toolkit'],
 	},
-	{ skillBlockTitle: 'Алгоритмы', skills: ['Бинарный поиск', 'Сортировки'] },
+	{
+		skillBlockTitle: 'Алгоритмы',
+		skills: ['Бинарный поиск', 'Сортировки'],
+	},
 	{
 		skillBlockTitle: 'Браузер',
 		skills: ['Web Sockets', 'Event Loop', 'Workers'],
 	},
+	{ skillBlockTitle: 'Системы контроля версий', skills: ['GIT', 'SVN'] },
 	{
 		skillBlockTitle: 'Системы управления проектами и задачами',
 		skills: ['Jira', 'Confluence', 'MS Teams', 'TeamCity', 'Jenkins'],
@@ -73,7 +81,10 @@ export const devSkills = [
 		skillBlockTitle: 'Особенности JS',
 		skills: ['Промисы и асинхронныe функции', 'Области видимости', 'Замыкания'],
 	},
-	{ skillBlockTitle: 'Системы контроля версий', skills: ['Git', 'SVN'] },
+	{
+		skillBlockTitle: 'Архитектурные решения',
+		skills: ['Модули', 'Atomic Design', 'FSD'],
+	},
 ]
 
 export const designSkills = [
@@ -92,13 +103,39 @@ export const experienceCompanies = [
 	{
 		company: 'Wargaming',
 		period: '2022 — н.в.',
-		occupation: 'Разработчик пользовательских интерфейсов в консольном проекте',
+		project: 'World of Warships: Legends',
+		location: 'Белград',
+		occupation: [
+			{
+				name: 'Фронтенд специалист',
+				tasks: [
+					'Написание приложений на React + Redux + Typescript',
+					'Поддержка проекта на внутреннем фреймворке (Unbound)',
+					'Поддержка онбоардинга младших коллег',
+				],
+			},
+		],
 	},
 	{
 		company: 'Lesta Games',
 		period: '2021 – 2022',
-		occupation: 'Разработчик пользовательских интерфейсов в консольном проекте',
+		project: 'World of Warships: Legends',
+		location: 'Санкт-Петербург',
+		occupation: [
+			{
+				name: 'Джуниор фронтенд специалист',
+				tasks: ['Написание кода на внутреннем фреймворке (Unbound)'],
+			},
+		],
 	},
+]
+
+export const commonTasks = [
+	'Обсуждение фичей на митингах',
+	'Ресерч и устранение различных багов',
+	'Код ревью в Fisheye',
+	'Демо фичей',
+	'Документирование кода в Confluence',
 ]
 
 export const softSkills = [

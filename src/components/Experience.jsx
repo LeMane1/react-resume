@@ -8,15 +8,20 @@ const Experience = ({ className }) => {
 			<h2 className="bold mb-3" id="experience">
 				Опыт работы
 			</h2>
-			{experienceCompanies.map((item, index) => (
-				<ExperienceItem
-					key={index}
-					company={item.company}
-					period={item.period}
-					occupation={item.occupation}
-					className={index === experienceCompanies.length - 1 ? 'mb-0' : 'mb-3'}
-				/>
-			))}
+
+			<div className="row gx-5 gy-3">
+				{experienceCompanies.map((item, index) => (
+					<ExperienceItem
+						key={index}
+						company={item.company}
+						period={item.period}
+						occupation={item.occupation}
+						location={item.location}
+						project={item.project}
+						className="col col-12 col-md-6"
+					/>
+				))}
+			</div>
 		</div>
 	)
 }
