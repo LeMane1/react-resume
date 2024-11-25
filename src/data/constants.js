@@ -10,6 +10,8 @@ import instagram from '../assets/instagram.svg'
 import telegram from '../assets/telegram.svg'
 import vk from '../assets/vk.svg'
 import email from '../assets/email.svg'
+import movies_search from '../assets/movies-search.png'
+import feature_editor from '../assets/feature_editor.jpg'
 
 export const MAX_CONTAINER_WIDTH = 990
 
@@ -186,17 +188,41 @@ export const educationItems = [
 
 export const portfolioItems = [
 	{
-		status: 'В разработке',
 		type: 'Pet project',
-		name: 'Finance Control',
+		name: 'Киномания',
+		image: movies_search,
 		description:
-			'Сервис для контроля за расходами и доходами. Поддерживает авторизацию пользователей, добавление учета расходов / доходов, создания отчета за выбранный период.',
+			'Поиск и просмотр информации о любимых фильмах и сериалах. Используется неофициальное API от Кинопоиска.',
+		links: [
+			{
+				name: 'Посмотреть',
+				linkSource: 'https://lemane1.github.io/movies-search/'
+			},
+			{
+				name: 'Github',
+				linkSource: 'https://github.com/LeMane1/movies-search'
+			}
+		]
 	},
+	// {
+	// 	type: 'Pet project',
+	// 	name: 'Easy Calories',
+	// 	image: '',
+	// 	description:
+	// 		'Поиск и рассчет калорий в продуктах. Для получения данных используется Ninja Api.',
+	// },
+	// {
+	// 	type: 'Совместный Pet project',
+	// 	name: 'Finance Control',
+	// 	description:
+	// 		'Сервис для контроля за расходами и доходами. Поддерживает авторизацию пользователей, добавление учета расходов / доходов, создания отчета за выбранный период.',
+	// },
 	{
-		status: 'В разработке',
 		type: 'Проект для Wargaming',
 		name: 'Feature XML Editor',
+		image: feature_editor,
 		description:
 			'Сервис для редактирования и создания XML конфигов. Позволяет загружать XML конфиги, изменять их содержимое и выгружать пользователю обратно.',
+		extraInfo: 'Поскольку проект находится под NDA, по договоренности с работодателем есть возможность показа кода только на собеседовании.'
 	},
 ]

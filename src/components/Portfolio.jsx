@@ -8,18 +8,18 @@ const Portfolio = ({ className }) => {
 			<h2 className="bold mb-3" id="portfolio">
 				Портфолио
 			</h2>
-			{/* <div className="row gy-2"> */}
 			{portfolioItems.map((item, index) => (
 				<PortfolioItem
 					key={index}
-					className="mb-2"
-					status={item.status}
+					className="mb-4"
+					image={item.image}
 					type={item.type}
 					name={item.name}
 					description={item.description}
+					links={item.links}
+					extraInfo={item.extraInfo}
 				/>
 			))}
-			{/* </div> */}
 		</div>
 	)
 }

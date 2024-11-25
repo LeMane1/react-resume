@@ -40,6 +40,10 @@ h6 {
 	margin: 0;
 }
 
+a{
+	text-decoration: none;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -138,4 +142,18 @@ h2::before {
 
 .default-bg {
 	background-color: #292929;
+}
+
+/* Portfolio item */
+
+.portfolio-image{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	border-radius: 8px;
+}
+
+.extra-info{
+	font-size: 12px;
+	opacity: .4;
 }

@@ -1,0 +1,8 @@
+.portfolioLinkItem{
+  /* text-decoration:none !important; */
+  color: #d33829;
+}
+
+.portfolioLinkItem:hover{
+  color: #ca2314;
+}
