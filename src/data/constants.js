@@ -104,7 +104,7 @@ export const designSkills = [
 export const experienceCompanies = [
 	{
 		company: 'Wargaming',
-		period: '2022 — н.в.',
+		period: '2022 – 2024',
 		project: 'World of Warships: Legends',
 		location: 'Белград',
 		occupation: [
