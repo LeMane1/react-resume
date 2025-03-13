@@ -12,6 +12,7 @@ import vk from '../assets/vk.svg'
 import email from '../assets/email.svg'
 import movies_search from '../assets/movies-search.png'
 import feature_editor from '../assets/feature_editor.jpg'
+import easy_calories from '../assets/easy-calories.png'
 
 export const MAX_CONTAINER_WIDTH = 990
 
@@ -208,13 +209,23 @@ export const portfolioItems = [
 			}
 		]
 	},
-	// {
-	// 	type: 'Pet project',
-	// 	name: 'Easy Calories',
-	// 	image: '',
-	// 	description:
-	// 		'Поиск и рассчет калорий в продуктах. Для получения данных используется Ninja Api.',
-	// },
+	{
+		type: 'Pet project',
+		name: 'Easy Calories',
+		image: easy_calories,
+		description:
+			'Поиск и рассчет калорий в продуктах. Для получения данных используется Ninja Api.',
+		links: [
+			{
+				name: 'Посмотреть',
+				linkSource: 'https://lemane1.github.io/easy-calories/'
+			},
+			{
+				name: 'Github',
+				linkSource: 'https://github.com/LeMane1/easy-calories'
+			}
+		]
+	},
 	// {
 	// 	type: 'Совместный Pet project',
 	// 	name: 'Finance Control',
