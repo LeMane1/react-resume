@@ -52,16 +52,12 @@ export const links = [
 export const devSkills = [
 	{ skillBlockTitle: 'Верстка', skills: ['HTML', 'CSS', 'JS'] },
 	{
-		skillBlockTitle: 'UI Kits',
-		skills: ['React Bootstrap', 'Ant Design'],
-	},
-	{
-		skillBlockTitle: 'CSS in JS',
-		skills: ['Emotion'],
-	},
-	{
 		skillBlockTitle: 'Типизация',
-		skills: ['Typescript', 'React PropTypes'],
+		skills: ['Typescript'],
+	},
+	{
+		skillBlockTitle: 'CSS фреймворки',
+		skills: ['React Bootstrap', 'Ant Design', 'Emotion'],
 	},
 	{
 		skillBlockTitle: 'JS фреймворки',
@@ -75,30 +71,34 @@ export const devSkills = [
 		skillBlockTitle: 'Браузер',
 		skills: ['Web Sockets', 'Event Loop', 'Workers'],
 	},
-	{ skillBlockTitle: 'Системы контроля версий', skills: ['GIT', 'SVN'] },
-	{
-		skillBlockTitle: 'Системы управления проектами и задачами',
-		skills: ['Jira', 'Confluence', 'MS Teams', 'TeamCity', 'Jenkins'],
-	},
 	{
 		skillBlockTitle: 'Особенности JS',
 		skills: ['Промисы и асинхронныe функции', 'Области видимости', 'Замыкания'],
 	},
 	{
+		skillBlockTitle: 'Системы управления проектами и задачами',
+		skills: ['Jira', 'Confluence', 'TeamCity', 'Jenkins'],
+	},
+	{ skillBlockTitle: 'Системы контроля версий', skills: ['GIT', 'SVN'] },
+	{
 		skillBlockTitle: 'Архитектурные решения',
 		skills: ['Модули', 'Atomic Design', 'FSD'],
+	},
+	{
+		skillBlockTitle: 'Unit тесты',
+		skills: ['Vitest', 'Jest'],
+	},
+	{
+		skillBlockTitle: 'SSR',
+		skills: ['Next'],
 	},
 ]
 
 export const designSkills = [
 	{ skillBlockTitle: 'Макеты', skills: ['Figma', 'Adobe XD'] },
 	{
-		skillBlockTitle: 'Кроссплатформенность',
-		skills: ['Адаптивный дизайн'],
-	},
-	{
 		skillBlockTitle: 'Структура',
-		skills: ['Компоненты', 'Состояния элементов', 'Внутреннее и внешнее'],
+		skills: ['Компоненты', 'Состояния элементов', 'Внутреннее и внешнее', 'Адаптивный дизайн'],
 	},
 ]
 
