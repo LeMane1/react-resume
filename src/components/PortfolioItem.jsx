@@ -11,7 +11,6 @@ const PortfolioItem = ({ type, name, description, image, className, links, extra
 				</div>
 				<div className="col col-12 col-md-6">
 					<h4 className="semi-bold">{name}</h4>
-					<h6 className="text-shaded mb-2">{type}</h6>
 					<p className="text-paragraph mb-1">{description}</p>
 					<div>
 						{links && links.map((link, index) => (

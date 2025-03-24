@@ -11,6 +11,7 @@ import telegram from '../assets/telegram.svg'
 import vk from '../assets/vk.svg'
 import email from '../assets/email.svg'
 import movies_search from '../assets/movies-search.png'
+import games_search from '../assets/games-search.png'
 import feature_editor from '../assets/feature_editor.jpg'
 import easy_calories from '../assets/easy-calories.png'
 
@@ -193,11 +194,26 @@ export const educationItems = [
 
 export const portfolioItems = [
 	{
-		type: 'Pet project',
+		name: 'Game Searcher',
+		image: games_search,
+		description:
+			'Поиск видеоигр и просмотр информации о видеоиграх. Используются Next, Redux Toolkit, Typescript, Material UI. Для получения данных RAWG Api.',
+		links: [
+			{
+				name: 'Посмотреть',
+				linkSource: 'https://games-search-s237.vercel.app/'
+			},
+			{
+				name: 'Github',
+				linkSource: 'https://github.com/LeMane1/games-search'
+			}
+		]
+	},
+	{
 		name: 'Киномания',
 		image: movies_search,
 		description:
-			'Поиск и просмотр информации о любимых фильмах и сериалах. Используется неофициальное API от Кинопоиска.',
+			'Поиск и просмотр информации о любимых фильмах и сериалах. Используются React, Redux Toolkit, Typescript, Ant Design, API от Кинопоиска.',
 		links: [
 			{
 				name: 'Посмотреть',
@@ -210,11 +226,10 @@ export const portfolioItems = [
 		]
 	},
 	{
-		type: 'Pet project',
 		name: 'Easy Calories',
 		image: easy_calories,
 		description:
-			'Поиск и рассчет калорий в продуктах. Для получения данных используется Ninja Api.',
+			'Поиск и рассчет калорий в продуктах. React, Redux Toolkit, Typescript, Ant Design. Для получения данных используется Ninja Api.',
 		links: [
 			{
 				name: 'Посмотреть',
@@ -233,11 +248,10 @@ export const portfolioItems = [
 	// 		'Сервис для контроля за расходами и доходами. Поддерживает авторизацию пользователей, добавление учета расходов / доходов, создания отчета за выбранный период.',
 	// },
 	{
-		type: 'Проект для Wargaming',
-		name: 'Feature XML Editor',
+		name: 'Codex XML Editor',
 		image: feature_editor,
 		description:
-			'Сервис для редактирования и создания XML конфигов. Позволяет загружать XML конфиги, изменять их содержимое и выгружать пользователю обратно.',
+			'Сервис для редактирования и создания XML конфигов для Wargaming. Позволяет загружать XML конфиги, изменять их содержимое и выгружать пользователю обратно. React, React Bootstrap, Typescript, Redux Toolkit.',
 		extraInfo: 'Поскольку проект находится под NDA, по договоренности с работодателем есть возможность показа кода только на собеседовании.'
 	},
 ]
