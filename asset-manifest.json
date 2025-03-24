@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react-resume/static/css/main.8051c1a0.css",
-    "main.js": "/react-resume/static/js/main.9522eb6a.js",
+    "main.js": "/react-resume/static/js/main.2db1c6c5.js",
     "static/js/453.3c10c9ab.chunk.js": "/react-resume/static/js/453.3c10c9ab.chunk.js",
-    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.c5ef29c67b8e42a4623d.pdf",
+    "static/media/games-search.png": "/react-resume/static/media/games-search.2b5d9b21a00885a0bb2d.png",
+    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.8b9bffae17e253a26265.pdf",
     "static/media/movies-search.png": "/react-resume/static/media/movies-search.aa3f5be0fc2d52a59867.png",
     "static/media/photo.png": "/react-resume/static/media/photo.fe3855667889eab2a611.png",
     "static/media/feature_editor.jpg": "/react-resume/static/media/feature_editor.46d6ec5ed48e0381defb.jpg",
@@ -22,11 +23,11 @@
     "index.html": "/react-resume/index.html",
     "static/media/email.svg": "/react-resume/static/media/email.ccec308b87ab9dad72eb86e83c17bdbd.svg",
     "main.8051c1a0.css.map": "/react-resume/static/css/main.8051c1a0.css.map",
-    "main.9522eb6a.js.map": "/react-resume/static/js/main.9522eb6a.js.map",
+    "main.2db1c6c5.js.map": "/react-resume/static/js/main.2db1c6c5.js.map",
     "453.3c10c9ab.chunk.js.map": "/react-resume/static/js/453.3c10c9ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8051c1a0.css",
-    "static/js/main.9522eb6a.js"
+    "static/js/main.2db1c6c5.js"
   ]
 }
