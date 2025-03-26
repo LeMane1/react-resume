@@ -197,7 +197,7 @@ export const portfolioItems = [
 		name: 'Game Searcher',
 		image: games_search,
 		description:
-			'Поиск видеоигр и просмотр информации о видеоиграх. Используются Next, Redux Toolkit, Typescript, Material UI. Для получения данных RAWG Api.',
+			'Fullstack приложение для поиска и просмотра информации о видеоиграх. Есть возможность создания аккаунта, добавление игр в список купленных. Используются Next (Server/Client components, Server Actions), Redux Toolkit, Typescript, Material UI. Для базы данных пользователей используется Supabase, для получения данных RAWG Api.',
 		links: [
 			{
 				name: 'Посмотреть',
