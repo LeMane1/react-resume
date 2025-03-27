@@ -16,16 +16,15 @@ const Intro = ({ className }) => {
 					<h1 className="bold">Александр Зеленин</h1>
 					<h4 className="semi-bold text-shaded mb-3">Фронтенд разработчик</h4>
 					<p className="text-paragraph mb-3">
-						{`Привет! Я разрабатываю пользовательские интерфейсы уже более 2 лет.
+						{`Привет! Я разрабатываю пользовательские интерфейсы уже более 3 лет.
 						В разработке использую самые современные технологии и постоянно стремлюсь к изучению нового!`}
 					</p>
 					<div className="d-flex flex-wrap mb-4">
 						<Button
 							href="mailto:alexandrzelenin2013@yandex.ru"
 							type="primary"
-							className={`mb-2 align-self-start ${
-								windowWidth < 400 ? 'me-0' : 'me-2'
-							}`}
+							className={`mb-2 align-self-start ${windowWidth < 400 ? 'me-0' : 'me-2'
+								}`}
 							style={{ width: windowWidth < 400 ? '100%' : '' }}
 						>
 							Написать мне
