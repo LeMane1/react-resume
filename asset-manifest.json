@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.8051c1a0.css",
+    "main.css": "/react-resume/static/css/main.383707f6.css",
     "main.js": "/react-resume/static/js/main.1b25f284.js",
     "static/js/453.3c10c9ab.chunk.js": "/react-resume/static/js/453.3c10c9ab.chunk.js",
     "static/media/games-search.png": "/react-resume/static/media/games-search.647b9c8b500f25d71c03.png",
@@ -22,12 +22,12 @@
     "static/media/vk.svg": "/react-resume/static/media/vk.7dd0be1427f6a8ddbffab4253aead8a2.svg",
     "static/media/linkedin.svg": "/react-resume/static/media/linkedin.8e9a09442e0eb89de758c9d0070929b7.svg",
     "static/media/email.svg": "/react-resume/static/media/email.ccec308b87ab9dad72eb86e83c17bdbd.svg",
-    "main.8051c1a0.css.map": "/react-resume/static/css/main.8051c1a0.css.map",
+    "main.383707f6.css.map": "/react-resume/static/css/main.383707f6.css.map",
     "main.1b25f284.js.map": "/react-resume/static/js/main.1b25f284.js.map",
     "453.3c10c9ab.chunk.js.map": "/react-resume/static/js/453.3c10c9ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8051c1a0.css",
+    "static/css/main.383707f6.css",
     "static/js/main.1b25f284.js"
   ]
 }
