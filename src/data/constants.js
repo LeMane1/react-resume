@@ -11,20 +11,20 @@ import telegram from '../assets/telegram.svg'
 import vk from '../assets/vk.svg'
 import email from '../assets/email.svg'
 
-import feature_editor from '../assets/feature_editor.jpg'
+import feature_editor from '../assets/screenshots/feature_editor.jpg'
 
-import game_searcher_image_1 from '../assets/screenshots/game_searcher_home.png'
-import game_searcher_image_2 from '../assets/screenshots/game_searcher_search.png'
-import game_searcher_image_3 from '../assets/screenshots/game_searcher_game.png'
-import game_searcher_image_4 from '../assets/screenshots/game_searcher_profile.png'
-import game_searcher_image_5 from '../assets/screenshots/game_searcher_login.png'
+import game_searcher_image_1 from '../assets/screenshots/game_searcher_home.jpg'
+import game_searcher_image_2 from '../assets/screenshots/game_searcher_search.jpg'
+import game_searcher_image_3 from '../assets/screenshots/game_searcher_game.jpg'
+import game_searcher_image_4 from '../assets/screenshots/game_searcher_profile.jpg'
+import game_searcher_image_5 from '../assets/screenshots/game_searcher_login.jpg'
 
-import kinomania_image_1 from '../assets/screenshots/kinomania_home.png'
-import kinomania_image_2 from '../assets/screenshots/kinomania_search.png'
-import kinomania_image_3 from '../assets/screenshots/kinomania_movie.png'
-import kinomania_image_4 from '../assets/screenshots/kinomania_actors.png'
+import kinomania_image_1 from '../assets/screenshots/kinomania_home.jpg'
+import kinomania_image_2 from '../assets/screenshots/kinomania_search.jpg'
+import kinomania_image_3 from '../assets/screenshots/kinomania_movie.jpg'
+import kinomania_image_4 from '../assets/screenshots/kinomania_actors.jpg'
 
-import easy_calories_image_1 from '../assets/screenshots/easy_calories_search.png'
+import easy_calories_image_1 from '../assets/screenshots/easy_calories_search.jpg'
 
 export const MAX_CONTAINER_WIDTH = 990
 
