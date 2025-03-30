@@ -10,10 +10,21 @@ import instagram from '../assets/instagram.svg'
 import telegram from '../assets/telegram.svg'
 import vk from '../assets/vk.svg'
 import email from '../assets/email.svg'
-import movies_search from '../assets/movies-search.png'
-import games_search from '../assets/games-search.png'
+
 import feature_editor from '../assets/feature_editor.jpg'
-import easy_calories from '../assets/easy-calories.png'
+
+import game_searcher_image_1 from '../assets/screenshots/game_searcher_home.png'
+import game_searcher_image_2 from '../assets/screenshots/game_searcher_search.png'
+import game_searcher_image_3 from '../assets/screenshots/game_searcher_game.png'
+import game_searcher_image_4 from '../assets/screenshots/game_searcher_profile.png'
+import game_searcher_image_5 from '../assets/screenshots/game_searcher_login.png'
+
+import kinomania_image_1 from '../assets/screenshots/kinomania_home.png'
+import kinomania_image_2 from '../assets/screenshots/kinomania_search.png'
+import kinomania_image_3 from '../assets/screenshots/kinomania_movie.png'
+import kinomania_image_4 from '../assets/screenshots/kinomania_actors.png'
+
+import easy_calories_image_1 from '../assets/screenshots/easy_calories_search.png'
 
 export const MAX_CONTAINER_WIDTH = 990
 
@@ -195,7 +206,34 @@ export const educationItems = [
 export const portfolioItems = [
 	{
 		name: 'Game Searcher',
-		image: games_search,
+		id: 1,
+		images: [
+			{
+				id: 1,
+				image: game_searcher_image_1,
+				alt: 'Game Searcher Home Page'
+			},
+			{
+				id: 2,
+				image: game_searcher_image_2,
+				alt: 'Game Searcher Search Page'
+			},
+			{
+				id: 3,
+				image: game_searcher_image_3,
+				alt: 'Game Searcher Game Page'
+			},
+			{
+				id: 4,
+				image: game_searcher_image_4,
+				alt: 'Game Searcher Profile Page'
+			},
+			{
+				id: 5,
+				image: game_searcher_image_5,
+				alt: 'Game Searcher Login Page'
+			},
+		],
 		description:
 			'Fullstack приложение для поиска и просмотра информации о видеоиграх. Есть возможность создания аккаунта, добавление игр в список купленных. Используются Next (Server/Client components, Server Actions), Redux Toolkit, Typescript, Material UI. Для базы данных пользователей используется Supabase, для получения данных RAWG Api.',
 		links: [
@@ -211,7 +249,29 @@ export const portfolioItems = [
 	},
 	{
 		name: 'Киномания',
-		image: movies_search,
+		id: 2,
+		images: [
+			{
+				id: 1,
+				image: kinomania_image_1,
+				alt: 'Kinomania Home Page'
+			},
+			{
+				id: 2,
+				image: kinomania_image_2,
+				alt: 'Kinomania Search Page'
+			},
+			{
+				id: 3,
+				image: kinomania_image_3,
+				alt: 'Kinomania Movie Page'
+			},
+			{
+				id: 4,
+				image: kinomania_image_4,
+				alt: 'Kinomania Actors'
+			},
+		],
 		description:
 			'Поиск и просмотр информации о любимых фильмах и сериалах. Используются React, Redux Toolkit, Typescript, Ant Design, API от Кинопоиска.',
 		links: [
@@ -227,7 +287,14 @@ export const portfolioItems = [
 	},
 	{
 		name: 'Easy Calories',
-		image: easy_calories,
+		id: 3,
+		images: [
+			{
+				id: 1,
+				image: easy_calories_image_1,
+				alt: 'Easy Calories Search Page'
+			},
+		],
 		description:
 			'Поиск и рассчет калорий в продуктах. React, Redux Toolkit, Typescript, Ant Design. Для получения данных используется Ninja Api.',
 		links: [
@@ -241,15 +308,16 @@ export const portfolioItems = [
 			}
 		]
 	},
-	// {
-	// 	type: 'Совместный Pet project',
-	// 	name: 'Finance Control',
-	// 	description:
-	// 		'Сервис для контроля за расходами и доходами. Поддерживает авторизацию пользователей, добавление учета расходов / доходов, создания отчета за выбранный период.',
-	// },
 	{
 		name: 'Codex XML Editor',
-		image: feature_editor,
+		id: 4,
+		images: [
+			{
+				id: 1,
+				image: feature_editor,
+				alt: 'Feature Editor Placeholder'
+			},
+		],
 		description:
 			'Сервис для редактирования и создания XML конфигов для Wargaming. Позволяет загружать XML конфиги, изменять их содержимое и выгружать пользователю обратно. React, React Bootstrap, Typescript, Redux Toolkit.',
 		extraInfo: 'Поскольку проект находится под NDA, по договоренности с работодателем есть возможность показа кода только на собеседовании.'
