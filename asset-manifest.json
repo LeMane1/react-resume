@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-resume/static/css/main.9d88ca18.css",
-    "main.js": "/react-resume/static/js/main.59495955.js",
+    "main.js": "/react-resume/static/js/main.59e14229.js",
     "static/js/453.3c10c9ab.chunk.js": "/react-resume/static/js/453.3c10c9ab.chunk.js",
     "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.758cec60006215f606cf.pdf",
     "static/media/photo.png": "/react-resume/static/media/photo.fe3855667889eab2a611.png",
     "static/media/kinomania_actors.jpg": "/react-resume/static/media/kinomania_actors.4cfe07870c81022eb016.jpg",
-    "static/media/game_searcher_search.jpg": "/react-resume/static/media/game_searcher_search.d4d82fe45384f003ec09.jpg",
-    "static/media/game_searcher_home.jpg": "/react-resume/static/media/game_searcher_home.b81295ab08a67aaace01.jpg",
+    "static/media/game_searcher_home.jpg": "/react-resume/static/media/game_searcher_home.40cdb57654d3404eef8f.jpg",
+    "static/media/game_searcher_profile.jpg": "/react-resume/static/media/game_searcher_profile.bc2a23d97e846c57c658.jpg",
+    "static/media/game_searcher_search.jpg": "/react-resume/static/media/game_searcher_search.1c88023f378c4f1d924e.jpg",
     "static/media/kinomania_movie.jpg": "/react-resume/static/media/kinomania_movie.edeab0f558ecfd941fa2.jpg",
-    "static/media/game_searcher_game.jpg": "/react-resume/static/media/game_searcher_game.75e560395e2a4f84485d.jpg",
-    "static/media/game_searcher_profile.jpg": "/react-resume/static/media/game_searcher_profile.a6b95bf10675b673c6fb.jpg",
+    "static/media/game_searcher_game.jpg": "/react-resume/static/media/game_searcher_game.637ea71ecac55b4de05e.jpg",
     "static/media/kinomania_search.jpg": "/react-resume/static/media/kinomania_search.af0e82ea6f32bbdef9a9.jpg",
     "static/media/easy_calories_search.jpg": "/react-resume/static/media/easy_calories_search.f46a8d26d614eb5ec52c.jpg",
     "static/media/kinomania_home.jpg": "/react-resume/static/media/kinomania_home.2afd4b342c6448f44f8d.jpg",
@@ -30,11 +30,11 @@
     "static/media/linkedin.svg": "/react-resume/static/media/linkedin.8e9a09442e0eb89de758c9d0070929b7.svg",
     "static/media/email.svg": "/react-resume/static/media/email.ccec308b87ab9dad72eb86e83c17bdbd.svg",
     "main.9d88ca18.css.map": "/react-resume/static/css/main.9d88ca18.css.map",
-    "main.59495955.js.map": "/react-resume/static/js/main.59495955.js.map",
+    "main.59e14229.js.map": "/react-resume/static/js/main.59e14229.js.map",
     "453.3c10c9ab.chunk.js.map": "/react-resume/static/js/453.3c10c9ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d88ca18.css",
-    "static/js/main.59495955.js"
+    "static/js/main.59e14229.js"
   ]
 }
