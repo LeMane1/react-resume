@@ -9,7 +9,7 @@ const PortfolioItem = ({ name, id, description, images, className, links, extraI
 				<div className="col col-12 col-md-6">
 
 					<div id={`carousel${id}`} className="carousel slide">
-						<div className="carousel-inner">
+						<div className="carousel-inner carousel-wrapper">
 							{
 								images && images.map((image, index) => (
 									<div

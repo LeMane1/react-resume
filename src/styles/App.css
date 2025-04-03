@@ -149,9 +149,12 @@ h2::before {
 .portfolio-image{
 	/* height: 100%; */
 	width: 100%;
-	border-radius: 8px;
 	object-fit: cover;
 	aspect-ratio: 16 / 9;
+}
+
+.carousel-wrapper{
+	border-radius: 8px;
 }
 
 .extra-info{
