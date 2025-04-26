@@ -19,6 +19,10 @@ import game_searcher_image_3 from '../assets/screenshots/game_searcher_game.jpg'
 import game_searcher_image_4 from '../assets/screenshots/game_searcher_profile.jpg'
 import game_searcher_image_5 from '../assets/screenshots/game_searcher_login.jpg'
 
+import x_music_home from '../assets/screenshots/x_music_home.jpg'
+import x_music_player from '../assets/screenshots/x_music_player.jpg'
+import x_music_search from '../assets/screenshots/x_music_search.jpg'
+
 import kinomania_image_1 from '../assets/screenshots/kinomania_home.jpg'
 import kinomania_image_2 from '../assets/screenshots/kinomania_search.jpg'
 import kinomania_image_3 from '../assets/screenshots/kinomania_movie.jpg'
@@ -237,7 +241,9 @@ export const portfolioItems = [
 			},
 		],
 		description:
-			'Fullstack приложение для поиска и просмотра информации о видеоиграх. Есть возможность создания аккаунта, добавление игр в список купленных. Используются Next (Server/Client components, Server Actions), Redux Toolkit, Typescript, Material UI. Для базы данных пользователей используется Supabase, для получения данных RAWG Api.',
+			`Fullstack-приложение для поиска и просмотра информации о видеоиграх. Пользователи могут создавать аккаунты и добавлять игры в список избранных.
+Проект построен с использованием Next.js (Server/Client Components, Server Actions), Redux Toolkit, TypeScript и Material UI.
+Для работы с базой данных пользователей используется Supabase, а для получения информации об играх — RAWG API.`,
 		links: [
 			{
 				name: 'Посмотреть',
@@ -250,8 +256,41 @@ export const portfolioItems = [
 		]
 	},
 	{
-		name: 'Киномания',
+		name: 'X Music',
 		id: 2,
+		images: [
+			{
+				id: 1,
+				image: x_music_home,
+				alt: 'X Music Home Page'
+			},
+			{
+				id: 2,
+				image: x_music_player,
+				alt: 'X Music Search Page'
+			},
+			{
+				id: 3,
+				image: x_music_search,
+				alt: 'X Music Movie Page'
+			},
+		],
+		description:
+			'Сервис для поиска и загрузки треков независимых исполнителей. Идеально подходит для инди-игр, стримов, видео-контента и других проектов без риска нарушения авторских прав. В основе проекта — современные технологии: Next.js, Redux Toolkit, TypeScript, Material UI и интеграция с API Jamendo.',
+		links: [
+			{
+				name: 'Посмотреть',
+				linkSource: 'https://x-music-fawn.vercel.app/'
+			},
+			{
+				name: 'Github',
+				linkSource: 'https://github.com/LeMane1/x-music'
+			}
+		]
+	},
+	{
+		name: 'Киномания',
+		id: 3,
 		images: [
 			{
 				id: 1,
@@ -275,7 +314,9 @@ export const portfolioItems = [
 			},
 		],
 		description:
-			'Поиск и просмотр информации о любимых фильмах и сериалах. Используются React, Redux Toolkit, Typescript, Ant Design, API от Кинопоиска.',
+			`Платформа для поиска и изучения информации о любимых фильмах и сериалах.
+Стек технологий: React, Redux Toolkit, TypeScript, Ant Design.
+Интеграция с API Кинопоиска обеспечивает актуальные данные о контенте.`,
 		links: [
 			{
 				name: 'Посмотреть',
@@ -298,7 +339,9 @@ export const portfolioItems = [
 			},
 		],
 		description:
-			'Поиск и рассчет калорий в продуктах. React, Redux Toolkit, Typescript, Ant Design. Для получения данных используется Ninja Api.',
+			`Приложение для поиска продуктов и расчёта их калорийности.
+Реализовано на базе React, Redux Toolkit, TypeScript и Ant Design.
+Для получения данных о продуктах используется Ninja API.`,
 		links: [
 			{
 				name: 'Посмотреть',
@@ -321,7 +364,9 @@ export const portfolioItems = [
 			},
 		],
 		description:
-			'Сервис для редактирования и создания XML конфигов для Wargaming. Позволяет загружать XML конфиги, изменять их содержимое и выгружать пользователю обратно. React, React Bootstrap, Typescript, Redux Toolkit.',
+			`Приложение для создания и редактирования XML-конфигов для игр Wargaming.
+Пользователи могут загружать, изменять и сохранять XML-файлы.
+Проект разработан на основе React, React Bootstrap, TypeScript и Redux Toolkit.`,
 		extraInfo: 'Поскольку проект находится под NDA, по договоренности с работодателем есть возможность показа кода только на собеседовании.'
 	},
 ]
