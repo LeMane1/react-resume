@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/react-resume/static/css/main.2560a5c7.css",
-    "main.js": "/react-resume/static/js/main.a433a844.js",
+    "main.js": "/react-resume/static/js/main.9a1661b6.js",
     "static/js/453.3c10c9ab.chunk.js": "/react-resume/static/js/453.3c10c9ab.chunk.js",
-    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.374cf257677dd3582726.pdf",
+    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.06ebb43c7f06344269d4.pdf",
     "static/media/photo.png": "/react-resume/static/media/photo.fe3855667889eab2a611.png",
     "static/media/kinomania_actors.jpg": "/react-resume/static/media/kinomania_actors.4cfe07870c81022eb016.jpg",
     "static/media/game_searcher_home.jpg": "/react-resume/static/media/game_searcher_home.539f89a5c0b244991ef3.jpg",
@@ -12,8 +12,11 @@
     "static/media/kinomania_movie.jpg": "/react-resume/static/media/kinomania_movie.edeab0f558ecfd941fa2.jpg",
     "static/media/game_searcher_game.jpg": "/react-resume/static/media/game_searcher_game.9a0cfbef416d78e55654.jpg",
     "static/media/kinomania_search.jpg": "/react-resume/static/media/kinomania_search.af0e82ea6f32bbdef9a9.jpg",
+    "static/media/x_music_search.jpg": "/react-resume/static/media/x_music_search.c21d5e15f2a2f5744265.jpg",
+    "static/media/x_music_home.jpg": "/react-resume/static/media/x_music_home.cac55c42638ccae47d5f.jpg",
     "static/media/easy_calories_search.jpg": "/react-resume/static/media/easy_calories_search.f46a8d26d614eb5ec52c.jpg",
     "static/media/kinomania_home.jpg": "/react-resume/static/media/kinomania_home.2afd4b342c6448f44f8d.jpg",
+    "static/media/x_music_player.jpg": "/react-resume/static/media/x_music_player.aefca2a5af71d09ce61d.jpg",
     "static/media/game_searcher_login.jpg": "/react-resume/static/media/game_searcher_login.cef1e91b3b30dfbe764f.jpg",
     "static/media/feature_editor.jpg": "/react-resume/static/media/feature_editor.6d5b94b2d406dc54c7ab.jpg",
     "static/media/icon_communication.svg": "/react-resume/static/media/icon_communication.f29c2ed9138dc27cc72f04193de2d871.svg",
@@ -30,11 +33,11 @@
     "static/media/linkedin.svg": "/react-resume/static/media/linkedin.8e9a09442e0eb89de758c9d0070929b7.svg",
     "static/media/email.svg": "/react-resume/static/media/email.ccec308b87ab9dad72eb86e83c17bdbd.svg",
     "main.2560a5c7.css.map": "/react-resume/static/css/main.2560a5c7.css.map",
-    "main.a433a844.js.map": "/react-resume/static/js/main.a433a844.js.map",
+    "main.9a1661b6.js.map": "/react-resume/static/js/main.9a1661b6.js.map",
     "453.3c10c9ab.chunk.js.map": "/react-resume/static/js/453.3c10c9ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2560a5c7.css",
-    "static/js/main.a433a844.js"
+    "static/js/main.9a1661b6.js"
   ]
 }
