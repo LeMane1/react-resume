@@ -105,16 +105,12 @@ export const devSkills = [
 		skills: ['Vitest', 'Jest'],
 	},
 	{
+		skillBlockTitle: 'Валидация форм',
+		skills: ['React-hook-form', 'Zod'],
+	},
+	{
 		skillBlockTitle: 'SSR',
 		skills: ['Next', 'Сlient/Server Components', 'Server Actions', 'Api Routes'],
-	},
-]
-
-export const designSkills = [
-	{ skillBlockTitle: 'Макеты', skills: ['Figma', 'Adobe XD'] },
-	{
-		skillBlockTitle: 'Структура',
-		skills: ['Компоненты', 'Состояния элементов', 'Внутреннее и внешнее', 'Адаптивный дизайн'],
 	},
 ]
 
