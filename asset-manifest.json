@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/react-resume/static/css/main.2560a5c7.css",
-    "main.js": "/react-resume/static/js/main.9a1661b6.js",
+    "main.js": "/react-resume/static/js/main.66a4a631.js",
     "static/js/453.3c10c9ab.chunk.js": "/react-resume/static/js/453.3c10c9ab.chunk.js",
-    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.06ebb43c7f06344269d4.pdf",
+    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.897ddaab4cda04cdcdf6.pdf",
     "static/media/photo.png": "/react-resume/static/media/photo.fe3855667889eab2a611.png",
     "static/media/kinomania_actors.jpg": "/react-resume/static/media/kinomania_actors.4cfe07870c81022eb016.jpg",
     "static/media/game_searcher_home.jpg": "/react-resume/static/media/game_searcher_home.539f89a5c0b244991ef3.jpg",
@@ -33,11 +33,11 @@
     "static/media/linkedin.svg": "/react-resume/static/media/linkedin.8e9a09442e0eb89de758c9d0070929b7.svg",
     "static/media/email.svg": "/react-resume/static/media/email.ccec308b87ab9dad72eb86e83c17bdbd.svg",
     "main.2560a5c7.css.map": "/react-resume/static/css/main.2560a5c7.css.map",
-    "main.9a1661b6.js.map": "/react-resume/static/js/main.9a1661b6.js.map",
+    "main.66a4a631.js.map": "/react-resume/static/js/main.66a4a631.js.map",
     "453.3c10c9ab.chunk.js.map": "/react-resume/static/js/453.3c10c9ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2560a5c7.css",
-    "static/js/main.9a1661b6.js"
+    "static/js/main.66a4a631.js"
   ]
 }
