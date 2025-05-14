@@ -161,3 +161,10 @@ h2::before {
 	font-size: 12px;
 	opacity: .4;
 }
+
+/* Copy button */
+.small-button{
+	background-color: transparent;
+	border: none;
+	color: white;
+}
