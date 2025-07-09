@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.e16f9296.css",
-    "main.js": "/react-resume/static/js/main.2a9f335c.js",
+    "main.css": "/react-resume/static/css/main.1671680a.css",
+    "main.js": "/react-resume/static/js/main.ad77296b.js",
     "static/js/453.3c10c9ab.chunk.js": "/react-resume/static/js/453.3c10c9ab.chunk.js",
-    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.897ddaab4cda04cdcdf6.pdf",
+    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.2b2f4ea64f069c647bae.pdf",
     "static/media/photo.png": "/react-resume/static/media/photo.fe3855667889eab2a611.png",
     "static/media/kinomania_actors.jpg": "/react-resume/static/media/kinomania_actors.4cfe07870c81022eb016.jpg",
     "static/media/game_searcher_home.jpg": "/react-resume/static/media/game_searcher_home.539f89a5c0b244991ef3.jpg",
@@ -34,12 +34,12 @@
     "static/media/email.svg": "/react-resume/static/media/email.ccec308b87ab9dad72eb86e83c17bdbd.svg",
     "static/media/icon_copy.svg": "/react-resume/static/media/icon_copy.af3c55eb7c8efe63c6577873db5ce3f9.svg",
     "static/media/icon_mark.svg": "/react-resume/static/media/icon_mark.94a10526244eef6f25ff98b4122f9638.svg",
-    "main.e16f9296.css.map": "/react-resume/static/css/main.e16f9296.css.map",
-    "main.2a9f335c.js.map": "/react-resume/static/js/main.2a9f335c.js.map",
+    "main.1671680a.css.map": "/react-resume/static/css/main.1671680a.css.map",
+    "main.ad77296b.js.map": "/react-resume/static/js/main.ad77296b.js.map",
     "453.3c10c9ab.chunk.js.map": "/react-resume/static/js/453.3c10c9ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e16f9296.css",
-    "static/js/main.2a9f335c.js"
+    "static/css/main.1671680a.css",
+    "static/js/main.ad77296b.js"
   ]
 }
