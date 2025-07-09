@@ -18,6 +18,7 @@ const Experience = ({ className }) => {
 						occupation={item.occupation}
 						location={item.location}
 						project={item.project}
+						site={item.site}
 						className="col col-12 col-md-6"
 					/>
 				))}

@@ -7,6 +7,7 @@ const ExperienceItem = ({
 	occupation,
 	location,
 	project,
+	site,
 	className,
 }) => {
 	return (
@@ -61,6 +62,12 @@ const ExperienceItem = ({
 								))}
 						</div>
 					))}
+
+				{site?.length > 0 &&
+					<a href={site} target='_blanc' className='link'>
+						Посмотреть
+					</a>
+				}
 
 				<div
 					className="position-absolute"

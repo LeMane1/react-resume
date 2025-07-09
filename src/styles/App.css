@@ -168,3 +168,11 @@ h2::before {
 	border: none;
 	color: white;
 }
+
+.link{
+	color: #D33829;
+}
+
+.link:hover{
+  color: #ca2314;
+}
