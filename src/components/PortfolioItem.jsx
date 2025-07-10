@@ -35,7 +35,7 @@ const PortfolioItem = ({ name, id, description, images, className, links, extraI
 									data-bs-target={`#carousel${id}`}
 									data-bs-slide="prev"
 								>
-									<span className="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span className={`carousel-control-prev-icon ${id === 4 ? 'invert-color' : ''}`} aria-hidden="true"></span>
 									<span className="visually-hidden">Previous</span>
 								</button>
 
@@ -45,7 +45,7 @@ const PortfolioItem = ({ name, id, description, images, className, links, extraI
 									data-bs-target={`#carousel${id}`}
 									data-bs-slide="next"
 								>
-									<span className="carousel-control-next-icon" aria-hidden="true"></span>
+									<span className={`carousel-control-next-icon ${id === 4 ? 'invert-color' : ''}`} aria-hidden="true"></span>
 									<span className="visually-hidden">Next</span>
 								</button>
 							</>

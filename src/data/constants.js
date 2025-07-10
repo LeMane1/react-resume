@@ -29,6 +29,7 @@ import kinomania_image_3 from '../assets/screenshots/kinomania_movie.jpg'
 import kinomania_image_4 from '../assets/screenshots/kinomania_actors.jpg'
 
 import easy_calories_image_1 from '../assets/screenshots/easy_calories_search.jpg'
+import easy_calories_image_2 from '../assets/screenshots/easy_calories_search_2.jpg'
 
 export const MAX_CONTAINER_WIDTH = 990
 
@@ -351,11 +352,16 @@ export const portfolioItems = [
 	},
 	{
 		name: 'Easy Calories',
-		id: 3,
+		id: 4,
 		images: [
 			{
 				id: 1,
 				image: easy_calories_image_1,
+				alt: 'Easy Calories Search Page'
+			},
+			{
+				id: 2,
+				image: easy_calories_image_2,
 				alt: 'Easy Calories Search Page'
 			},
 		],
@@ -376,7 +382,7 @@ export const portfolioItems = [
 	},
 	{
 		name: 'Codex XML Editor',
-		id: 4,
+		id: 5,
 		images: [
 			{
 				id: 1,

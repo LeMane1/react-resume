@@ -176,3 +176,7 @@ h2::before {
 .link:hover{
   color: #ca2314;
 }
+
+.invert-color{
+	filter: invert(1);
+}
