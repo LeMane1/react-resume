@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.1671680a.css",
-    "main.js": "/react-resume/static/js/main.ad77296b.js",
+    "main.css": "/react-resume/static/css/main.c85d8216.css",
+    "main.js": "/react-resume/static/js/main.e29a1ac9.js",
     "static/js/453.3c10c9ab.chunk.js": "/react-resume/static/js/453.3c10c9ab.chunk.js",
     "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.2b2f4ea64f069c647bae.pdf",
     "static/media/photo.png": "/react-resume/static/media/photo.fe3855667889eab2a611.png",
@@ -18,6 +18,7 @@
     "static/media/kinomania_home.jpg": "/react-resume/static/media/kinomania_home.2afd4b342c6448f44f8d.jpg",
     "static/media/x_music_player.jpg": "/react-resume/static/media/x_music_player.aefca2a5af71d09ce61d.jpg",
     "static/media/game_searcher_login.jpg": "/react-resume/static/media/game_searcher_login.cef1e91b3b30dfbe764f.jpg",
+    "static/media/easy_calories_search_2.jpg": "/react-resume/static/media/easy_calories_search_2.1c354eb4c4693c7cf743.jpg",
     "static/media/feature_editor.jpg": "/react-resume/static/media/feature_editor.6d5b94b2d406dc54c7ab.jpg",
     "static/media/icon_communication.svg": "/react-resume/static/media/icon_communication.f29c2ed9138dc27cc72f04193de2d871.svg",
     "static/media/icon_team.svg": "/react-resume/static/media/icon_team.68b2d33e814e7782c2db83fc1e0e4e2d.svg",
@@ -34,12 +35,12 @@
     "static/media/email.svg": "/react-resume/static/media/email.ccec308b87ab9dad72eb86e83c17bdbd.svg",
     "static/media/icon_copy.svg": "/react-resume/static/media/icon_copy.af3c55eb7c8efe63c6577873db5ce3f9.svg",
     "static/media/icon_mark.svg": "/react-resume/static/media/icon_mark.94a10526244eef6f25ff98b4122f9638.svg",
-    "main.1671680a.css.map": "/react-resume/static/css/main.1671680a.css.map",
-    "main.ad77296b.js.map": "/react-resume/static/js/main.ad77296b.js.map",
+    "main.c85d8216.css.map": "/react-resume/static/css/main.c85d8216.css.map",
+    "main.e29a1ac9.js.map": "/react-resume/static/js/main.e29a1ac9.js.map",
     "453.3c10c9ab.chunk.js.map": "/react-resume/static/js/453.3c10c9ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1671680a.css",
-    "static/js/main.ad77296b.js"
+    "static/css/main.c85d8216.css",
+    "static/js/main.e29a1ac9.js"
   ]
 }
