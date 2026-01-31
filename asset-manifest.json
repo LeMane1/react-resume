@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.c85d8216.css",
-    "main.js": "/react-resume/static/js/main.e29a1ac9.js",
+    "main.css": "/react-resume/static/css/main.d38ba230.css",
+    "main.js": "/react-resume/static/js/main.f092a11a.js",
     "static/js/453.3c10c9ab.chunk.js": "/react-resume/static/js/453.3c10c9ab.chunk.js",
-    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.2b2f4ea64f069c647bae.pdf",
+    "static/media/CV_Aleksandr_Zelenin.pdf": "/react-resume/static/media/CV_Aleksandr_Zelenin.046efd24a4c47e06a7bd.pdf",
     "static/media/photo.png": "/react-resume/static/media/photo.fe3855667889eab2a611.png",
     "static/media/kinomania_actors.jpg": "/react-resume/static/media/kinomania_actors.4cfe07870c81022eb016.jpg",
     "static/media/game_searcher_home.jpg": "/react-resume/static/media/game_searcher_home.539f89a5c0b244991ef3.jpg",
@@ -30,17 +30,18 @@
     "index.html": "/react-resume/index.html",
     "static/media/icon_idea.svg": "/react-resume/static/media/icon_idea.4d892f5b4d526de7d9d6d7ed2d368753.svg",
     "static/media/telegram.svg": "/react-resume/static/media/telegram.3c8bba709c331b95ade02d587235c493.svg",
+    "static/media/vpn.svg": "/react-resume/static/media/vpn.1627839e7d950b615440387d69c873f8.svg",
     "static/media/vk.svg": "/react-resume/static/media/vk.7dd0be1427f6a8ddbffab4253aead8a2.svg",
     "static/media/linkedin.svg": "/react-resume/static/media/linkedin.8e9a09442e0eb89de758c9d0070929b7.svg",
     "static/media/email.svg": "/react-resume/static/media/email.ccec308b87ab9dad72eb86e83c17bdbd.svg",
     "static/media/icon_copy.svg": "/react-resume/static/media/icon_copy.af3c55eb7c8efe63c6577873db5ce3f9.svg",
     "static/media/icon_mark.svg": "/react-resume/static/media/icon_mark.94a10526244eef6f25ff98b4122f9638.svg",
-    "main.c85d8216.css.map": "/react-resume/static/css/main.c85d8216.css.map",
-    "main.e29a1ac9.js.map": "/react-resume/static/js/main.e29a1ac9.js.map",
+    "main.d38ba230.css.map": "/react-resume/static/css/main.d38ba230.css.map",
+    "main.f092a11a.js.map": "/react-resume/static/js/main.f092a11a.js.map",
     "453.3c10c9ab.chunk.js.map": "/react-resume/static/js/453.3c10c9ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c85d8216.css",
-    "static/js/main.e29a1ac9.js"
+    "static/css/main.d38ba230.css",
+    "static/js/main.f092a11a.js"
   ]
 }
