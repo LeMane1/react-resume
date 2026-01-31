@@ -162,6 +162,18 @@ h2::before {
 	opacity: .4;
 }
 
+.vpn-block{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+}
+
+.vpn-info{
+	font-size: 12px;
+	opacity: .9;
+}
+
 /* Copy button */
 .small-button{
 	background-color: transparent;

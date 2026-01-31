@@ -117,8 +117,28 @@ export const devSkills = [
 
 export const experienceCompanies = [
 	{
+		company: 'Пикассо',
+		period: 'август 2025 – н.в.',
+		project: 'Личный кабинет врача',
+		location: 'Санкт-Петербург',
+		occupation: [
+			{
+				name: 'Фронтенд разработчик',
+				tasks: [
+					'Разработка и участие в редизайне личных кабинетов врача и менеджера',
+					'Добавление сервиса для создания и управления мероприятиями для врачей',
+					'Интеграция REST API, взаимодействие с бэкенд разработчиками',
+					'Ресерч и исправление багов, улучшение производительности',
+					'Участие в улучшении архитектуры, работа с Redux Toolkit',
+					'Добавление метрик, создание юнит тестов'
+				],
+			},
+		],
+		site: 'https://picasso-diagnostic.ru/'
+	},
+	{
 		company: 'Apptica',
-		period: '2025 – н.в.',
+		period: 'май 2025 – июль 2025',
 		project: 'Apptica',
 		location: 'Санкт-Петербург',
 		occupation: [
@@ -126,7 +146,7 @@ export const experienceCompanies = [
 				name: 'Фронтенд разработчик',
 				tasks: [
 					'Разрабатывал и поддерживал клиентскую часть приложения и админ-панели',
-  				'Создавал UI-компоненты и реализовывал их взаимодействие с бизнес-логикой',
+  				'Создавал UI-компоненты, участвовал в интерграции аналитики новых магазинов мобильных приложений',
   				'Интегрировал REST API и обрабатывал полученные данные на фронтенде',
   				'Занимался исправлением багов и улучшением производительности интерфейса',
   				'Переписывал легаси-код с использованием современных подходов и библиотек',
@@ -275,7 +295,8 @@ export const portfolioItems = [
 				name: 'Github',
 				linkSource: 'https://github.com/LeMane1/games-search'
 			}
-		]
+		],
+		needVpn: true,
 	},
 	{
 		name: 'X Music',
@@ -308,7 +329,8 @@ export const portfolioItems = [
 				name: 'Github',
 				linkSource: 'https://github.com/LeMane1/x-music'
 			}
-		]
+		],
+		needVpn: true,
 	},
 	{
 		name: 'Киномания',
@@ -348,7 +370,8 @@ export const portfolioItems = [
 				name: 'Github',
 				linkSource: 'https://github.com/LeMane1/movies-search'
 			}
-		]
+		],
+		needVpn: false,
 	},
 	{
 		name: 'Easy Calories',
@@ -378,7 +401,8 @@ export const portfolioItems = [
 				name: 'Github',
 				linkSource: 'https://github.com/LeMane1/easy-calories'
 			}
-		]
+		],
+		needVpn: false,
 	},
 	{
 		name: 'Codex XML Editor',
@@ -394,6 +418,7 @@ export const portfolioItems = [
 			`Приложение для создания и редактирования XML-конфигов для игр Wargaming.
 Пользователи могут загружать, изменять и сохранять XML-файлы.
 Проект разработан на основе React, React Bootstrap, TypeScript и Redux Toolkit.`,
-		extraInfo: 'Поскольку проект находится под NDA, по договоренности с работодателем есть возможность показа кода только на собеседовании.'
+		extraInfo: 'Поскольку проект находится под NDA, по договоренности с работодателем есть возможность показа кода только на собеседовании.',
+		needVpn: false,
 	},
 ]

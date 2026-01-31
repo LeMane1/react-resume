@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import PortfolioLinkItem from "./UI/link/PortfolioLinkItem";
+import VpnIcon from '../assets/vpn.svg';
 
-const PortfolioItem = ({ name, id, description, images, className, links, extraInfo }) => {
+const PortfolioItem = ({ name, id, description, images, className, links, extraInfo, needVpn }) => {
 	return (
 		<div className={className}>
 			<div className="row gx-3 gy-3">
@@ -55,6 +56,10 @@ const PortfolioItem = ({ name, id, description, images, className, links, extraI
 				<div className="col col-12 col-md-6">
 					<h4 className="semi-bold">{name}</h4>
 					<p className="text-paragraph mb-1">{description}</p>
+					{needVpn && (<div className={'vpn-block mb-2'}>
+						<img src={VpnIcon} width={20} height={20} />
+						<p className={'vpn-info'}>Для корректной работы сервиса может потребоваться VPN</p>
+					</div>)}
 					<div>
 						{links && links.map((link, index) => (
 							<PortfolioLinkItem
