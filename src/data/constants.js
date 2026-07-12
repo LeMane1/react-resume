@@ -74,15 +74,15 @@ export const devSkills = [
 	},
 	{
 		skillBlockTitle: 'CSS фреймворки',
-		skills: ['React Bootstrap', 'Ant Design', 'Emotion'],
+		skills: ['React Bootstrap', 'Ant Design', 'Emotion', 'Material UI'],
 	},
 	{
 		skillBlockTitle: 'JS фреймворки',
-		skills: ['React', 'React Router', 'Redux Toolkit'],
+		skills: ['React', 'React Router', 'Redux Toolkit', 'RTK Query'],
 	},
 	{
 		skillBlockTitle: 'Алгоритмы',
-		skills: ['Бинарный поиск', 'Сортировки'],
+		skills: ['Бинарный поиск', 'Алгоритмы сортировки'],
 	},
 	{
 		skillBlockTitle: 'Браузер',
@@ -94,20 +94,20 @@ export const devSkills = [
 	},
 	{
 		skillBlockTitle: 'Системы управления проектами и задачами',
-		skills: ['Jira', 'Confluence', 'TeamCity', 'Jenkins'],
+		skills: ['Jira', 'Confluence', 'TeamCity', 'Jenkins', 'Яндекс Трекер', 'Яндекс Вики'],
 	},
-	{ skillBlockTitle: 'Системы контроля версий', skills: ['GIT', 'SVN'] },
+	{ skillBlockTitle: 'Системы контроля версий', skills: ['Git', 'Svn'] },
 	{
 		skillBlockTitle: 'Архитектурные решения',
 		skills: ['Модули', 'Atomic Design', 'FSD'],
 	},
 	{
-		skillBlockTitle: 'Unit тесты',
-		skills: ['Vitest', 'Jest'],
+		skillBlockTitle: 'Тестирование',
+		skills: ['Vitest', 'Jest', 'Cypress'],
 	},
 	{
 		skillBlockTitle: 'Валидация форм',
-		skills: ['React-hook-form', 'Zod'],
+		skills: ['React hook form', 'Zod'],
 	},
 	{
 		skillBlockTitle: 'SSR',
@@ -119,18 +119,18 @@ export const experienceCompanies = [
 	{
 		company: 'Пикассо',
 		period: 'август 2025 – н.в.',
-		project: 'Личный кабинет врача',
+		project: 'Личный кабинет врача, Личный кабинет менеджера',
 		location: 'Санкт-Петербург',
 		occupation: [
 			{
 				name: 'Фронтенд разработчик',
 				tasks: [
 					'Разработка и участие в редизайне личных кабинетов врача и менеджера',
-					'Добавление сервиса для создания и управления мероприятиями для врачей',
-					'Интеграция REST API, взаимодействие с бэкенд разработчиками',
-					'Ресерч и исправление багов, улучшение производительности',
+					'Интеграция сервиса для создания и управления мероприятиями для врачей',
+					'Интеграция новых эндпоинтов по REST API, взаимодействие с бэкенд разработчиками',
+					'Ресерч и снижение тех долга, улучшение производительности сервисов',
 					'Участие в улучшении архитектуры, работа с Redux Toolkit',
-					'Добавление метрик, создание юнит тестов'
+					'Добавление бизнес метрик, написание интеграционных тестов'
 				],
 			},
 		],
