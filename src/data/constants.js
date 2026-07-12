@@ -81,6 +81,10 @@ export const devSkills = [
 		skills: ['React', 'React Router', 'Redux Toolkit', 'RTK Query'],
 	},
 	{
+		skillBlockTitle: 'Cборщики проектов',
+		skills: ['Webpack', 'Vite'],
+	},
+	{
 		skillBlockTitle: 'Алгоритмы',
 		skills: ['Бинарный поиск', 'Алгоритмы сортировки'],
 	},
